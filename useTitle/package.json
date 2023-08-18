@@ -1,0 +1,25 @@
+{
+  "name": "@smooks/use-title",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's title.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony0724/smooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "title"
+  ],
+  "author": "Sungmin Kim <0724ksm@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tony0724/smooks/issues"
+  },
+  "homepage": "https://github.com/Tony0724/smooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

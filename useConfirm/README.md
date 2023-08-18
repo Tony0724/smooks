@@ -1,20 +1,20 @@
-# @sooks/use-confirm
+# @smooks/use-confirm
 React Hook to ask the user for a confirmation before executing a function.
 
 ## Installation
 yarn
 
-``` yarn add @sooks/use-confirm ```
+``` yarn add @smooks/use-confirm ```
 
 npm
 
-``` npm i @sooks/use-confirm ```
+``` npm i @smooks/use-confirm ```
 
 ## Usage
 
 ```js 
     import React from "react";
-    import useConfirm from "@sooks/use-confirm";
+    import useConfirm from "@smooks/use-confirm";
 
     function App() {
         const deleteWorld = () => console.log("Deleting world...");
