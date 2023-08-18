@@ -1,5 +1,5 @@
-import { useState } from "react";
 import {Link} from 'react-router-dom';
+import useTabs from '@smooks/use-tabs';
 
 const content = [
     {
@@ -11,17 +11,6 @@ const content = [
         content: "I'm the content of the Section 2"
     }
 ];
-
-const useTabs = (initialTab, allTabs) => {
-    const [currentIndex, setCurrentIndex] = useState(initialTab);
-    if (!allTabs || !Array.isArray(allTabs)) {
-        return;
-    }
-    return {
-        currentItem: allTabs[currentIndex],
-        changeItem: setCurrentIndex
-    };
-};
 
 const Tab = () => {
     const { currentItem, changeItem } = useTabs(0, content);

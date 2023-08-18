@@ -1,16 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import {Link} from 'react-router-dom';
-
-const usePreventLeave = () => {
-  const listener = (event) => {
-    event.preventDefault();
-    event.returnValue = "";
-  };
-  const enablePrevent = () => window.addEventListener("beforeunload", listener);
-  const disablePrevent = () =>
-    window.removeEventListener("beforeunload", listener);
-  return { enablePrevent, disablePrevent };
-};
+import usePreventLeave from "@smooks/use-prevent-leave";
 
 const PreventLeave = () => {
   const { enablePrevent, disablePrevent } = usePreventLeave();

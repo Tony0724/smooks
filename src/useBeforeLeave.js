@@ -1,22 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import {Link} from 'react-router-dom';
-
-const useBeforeLeave = (onBefore) => {
-  const handle = (event) => {
-    const { clientY } = event;
-    if (clientY <= 0) {
-      onBefore();
-    }
-  };
-  useEffect(() => {
-    if (typeof onBefore === "function") {
-      document.addEventListener("mouseleave", handle);
-      return () => document.removeEventListener("mouseleave", handle);
-    } else {
-      return;
-    }
-  }, []);
-};
+import useBeforeLeave from "@smooks/use-before-leave";
 
 const BeforeLeave = () => {
   const begForLife = () => console.log("Pls don't leave");

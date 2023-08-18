@@ -1,15 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {Link} from 'react-router-dom';
-
-const useTitle = (initialtitle) => {
-    const [title, setTitle] = useState(initialtitle);
-    const updateTitle = () => {
-    const htmlTitle = document.querySelector("title");
-    htmlTitle.innerText = title;
-    };
-    useEffect(updateTitle, [title]);
-    return setTitle;
-};
+import useTitle from "@smooks/use-title";
 
 const Title = () => {
     const titleUpdater = useTitle("Loading...");

@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { useRef } from "react";
+import React from "react";
 import {Link} from 'react-router-dom';
+import useClick from '@smooks/use-click';
 
 const Click = () => {
     const sayHello = () => alert("Element was clicked!");
@@ -14,24 +14,5 @@ const Click = () => {
         </>
     );
 };
-
-const useClick = (onClick) => {
-    const element = useRef();
-    useEffect(() => {
-        if (element.current) {
-        element.current.addEventListener("click", onClick);
-        }
-        return () => {
-        if (element.current) {
-            element.current.removeEventListener("click", onClick);
-        }
-        };
-    }, []);
-    if (typeof onClick !== "function") {
-        return;
-    }
-    return element;
-};
-
 
 export default Click

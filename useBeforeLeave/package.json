@@ -1,0 +1,28 @@
+{
+  "name": "@smooks/use-before-leave",
+  "version": "1.0.0",
+  "description": "React Hook to execute a function when the mouse leaves the page. Useful to show a popup or for analytics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony0724/smooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "beforeleave"
+  ],
+  "author": "sungminkim <0724ksm@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tony0724/smooks/issues"
+  },
+  "homepage": "https://github.com/Tony0724/smooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

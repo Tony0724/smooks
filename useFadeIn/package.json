@@ -1,0 +1,25 @@
+{
+  "name": "@smooks/use-fadein",
+  "version": "1.0.0",
+  "description": "A React hook that applies a fade-in animation effect to elements when they are mounted or become visible.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony0724/smooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "fadein"
+  ],
+  "author": "sungminkim <0724ksm@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tony0724/smooks/issues"
+  },
+  "homepage": "https://github.com/Tony0724/smooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@smooks/use-network",
+  "version": "1.0.1",
+  "description": "React Hook to listen when the user goes online or offline.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony0724/smooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "network"
+  ],
+  "author": "sungminkim <0724ksm@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tony0724/smooks/issues"
+  },
+  "homepage": "https://github.com/Tony0724/smooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

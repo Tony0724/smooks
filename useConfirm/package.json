@@ -1,0 +1,21 @@
+{
+  "name": "@smooks/use-confirm",
+  "version": "1.0.0",
+  "description": "React Hook to ask the user for a confirmation before executing a function.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony0724/smooks.git"
+  },
+  "keywords": [
+    "react",
+    "confirm",
+    "hook"
+  ],
+  "author": "sungminkim <0724ksm@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tony0724/smooks/issues"
+  },
+  "homepage": "https://github.com/Tony0724/smooks#readme"
+}

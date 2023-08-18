@@ -1,22 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import {Link} from 'react-router-dom';
-
-const useConfirm = (message = "", onConfirm, onCancel) => {
-  if (!onConfirm || typeof onConfirm !== "function") {
-    return;
-  }
-  if (onCancel && typeof onCancel !== "function") {
-    return;
-  }
-  const confirmAction = () => {
-    if (window.confirm(message)) {
-      onConfirm();
-    } else {
-      onCancel();
-    }
-  };
-  return confirmAction;
-};
+import useConfirm from "@smooks/use-confirm";
 
 const Confirm = () => {
   const deleteWorld = () => console.log("deleting the world...");
