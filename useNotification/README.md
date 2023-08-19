@@ -1,4 +1,4 @@
-# @smooks/use-notification
+# @smooks/use-notify
 
 React Hook for using web browser notifications in your application.
 
@@ -6,16 +6,16 @@ React Hook for using web browser notifications in your application.
 
 yarn
 
-``` yarn add @smooks/use-notification ```
+``` yarn add @smooks/use-notify ```
 
 npm
 
-``` npm i @smooks/use-notification ```
+``` npm i @smooks/use-notify ```
 
 ## Usage
 
 ```js
-    import useNotification from '@smooks/use-notification';
+    import useNotification from '@smooks/use-notify';
 
     const App = () => {
         const trigerNotification = useNotification("Can I steal your kimchi?", {

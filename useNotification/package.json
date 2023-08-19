@@ -1,5 +1,5 @@
 {
-  "name": "@smooks/use-notification",
+  "name": "@smooks/use-notify",
   "version": "1.0.0",
   "description": "React Hook for using web browser notifications in your application.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "react",
     "hooks",
-    "notifications"
+    "notification"
   ],
   "author": "sungminkim <0724ksm@naver.com>",
   "license": "MIT",

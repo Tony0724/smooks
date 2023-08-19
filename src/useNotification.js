@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import useNotification from '@smooks/use-notification';
+import useNotification from '@smooks/use-notify';
 
 const Notification = () => {
     const trigerNotification = useNotification("Can I steal your kimchi?", {
