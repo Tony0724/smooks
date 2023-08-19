@@ -9,6 +9,7 @@
     "@smooks/use-fadein": "^1.0.0",
     "@smooks/use-input": "^1.0.1",
     "@smooks/use-network": "^1.0.0",
+    "@smooks/use-notification": "^1.0.0",
     "@smooks/use-prevent-leave": "^1.0.0",
     "@smooks/use-tabs": "^1.0.1",
     "@smooks/use-title": "^1.0.1",

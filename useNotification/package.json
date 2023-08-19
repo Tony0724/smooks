@@ -1,0 +1,24 @@
+{
+  "name": "@smooks/use-notification",
+  "version": "1.0.0",
+  "description": "React Hook for using web browser notifications in your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony0724/smooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "notifications"
+  ],
+  "author": "sungminkim <0724ksm@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tony0724/smooks/issues"
+  },
+  "homepage": "https://github.com/Tony0724/smooks#readme"
+}

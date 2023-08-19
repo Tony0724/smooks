@@ -13,6 +13,7 @@ function Home() {
             <Link to="/BeforeLeave"><button>go to useBeforeLeave</button></Link>
             <Link to="/FadeIn"><button>go to useFadeIn</button></Link>
             <Link to="/Network"><button>go to useNetwork</button></Link>
+            <Link to="/Notification"><button>go to useNotification</button></Link>
         </div>
     )
 }

@@ -8,6 +8,7 @@ import PreventLeave from './usePreventLeave';
 import BeforeLeave from './useBeforeLeave';
 import FadeIn from './useFadeIn';
 import Network from './useNetwork';
+import Notification from "./useNotification";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/BeforeLeave" element={<BeforeLeave />}></Route>
           <Route path="/FadeIn" element={<FadeIn />}></Route>
           <Route path="/Network" element={<Network />}></Route>
+          <Route path="/Notification" element={<Notification />}></Route>
         </Routes>
       </Router>
     </div>
