@@ -17,4 +17,4 @@ Here is custom hooks for you! ⬇️
 | useTabs| React hook for handling tab navigation.| [Documentation](https://github.com/Tony0724/smooks/tree/main/useTabs#readme)| [NPM Page](https://www.npmjs.com/package/@smooks/use-tabs)|
 | useTitle| Update your document's title.	| [Documentation](https://github.com/Tony0724/smooks/tree/main/useTitle#readme)| [NPM Page](https://www.npmjs.com/package/@smooks/use-title)|
 | useBeforeLeave| Execute a function when the mouse leaves the document.	| [Documentation](https://github.com/Tony0724/smooks/tree/main/useBeforeLeave#readme)| [NPM Page](https://www.npmjs.com/package/@smooks/use-before-leave)|
-| useNotification | React hook for using web browser notifications in your application. | [Documentation](https://github.com/Tony0724/smooks/tree/main/useNotification#readme) | [NPM Page](https://www.npmjs.com/package/@smooks/use-notification)
+| useNotification | React hook for using web browser notifications in your application. | [Documentation](https://github.com/Tony0724/smooks/tree/main/useNotification#readme) | [NPM Page](https://www.npmjs.com/package/@smooks/use-notify)
