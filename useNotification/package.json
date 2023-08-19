@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "React Hook for using web browser notifications in your application.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tony0724/smooks.git"
