@@ -19,5 +19,11 @@ Here are custom hooks for you! ⬇️
 | useBeforeLeave| Execute a function when the mouse leaves the document.	| [Documentation](https://github.com/Tony0724/smooks/tree/main/useBeforeLeave#readme)| [NPM Page](https://www.npmjs.com/package/@smooks/use-before-leave)|
 | useNotification | React hook for using web browser notifications in your application. | [Documentation](https://github.com/Tony0724/smooks/tree/main/useNotification#readme) | [NPM Page](https://www.npmjs.com/package/@smooks/use-notify)
 
-If you want another custom hook, then please contact me here: EMAIL: email: 0724ksm@naver.com , TEL: [If you press here, you'll get a call right away](tel:+821057018035)(** I may not be able to answer the phone because I am a student. In that case, please give me an e-mail **)
+If you want another custom hook, then please contact me here: 
+
+EMAIL: 0724ksm@naver.com, 
+
+TEL: +(82) 010-5701-8035
+
+ <=> <span style="color: red;">**I may not be able to answer the phone because I am a student. In that case, please give me an e-mail**</span>
 
